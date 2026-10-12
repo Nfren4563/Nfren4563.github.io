@@ -164,3 +164,9 @@
     flex: 1 1 100%;
   }
 }
+@media (max-width: 768px) {
+  .interests-row {
+    grid-template-columns : 1fr;
+  }
+  .interest-card {
+    pdding: 30px 20px;
